@@ -38,3 +38,5 @@ SELECT TOP 3 FirstName, Salary FROM Employee ORDER BY Salary DESC;
 
 SELECT FirstName, Salary FROM Employee ORDER BY Salary DESC OFFSET 2 ROWS FETCH NEXT 3 ROWS ONLY;
 
+SELECT * FROM Employee WHERE Salary > 1500000;
+
