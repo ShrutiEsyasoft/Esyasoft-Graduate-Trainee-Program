@@ -1,0 +1,28 @@
+a = [9]
+a.append(23)
+a.append(56)
+a.append(78)
+a.append("Shruti")
+a.append(23.45)
+print(a)
+print(a[1])
+print(a[-1])
+print(a[1:-2])
+print(a[1:])
+print(a[:2])
+print(a[:])
+a[1] = 45
+print(a)
+a.remove(45)
+print(a)
+print(type(a))
+a[:] = reversed(a[:])
+print(a)
+a.insert(6, "Hello")
+print(a)
+a.pop(5)
+print(a)
+
+b = ["shruti", "is", "a", "good", "girl"]
+b.sort()
+print(b)

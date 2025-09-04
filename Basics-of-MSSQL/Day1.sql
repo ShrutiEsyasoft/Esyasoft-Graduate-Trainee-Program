@@ -7,9 +7,9 @@ CREATE TABLE Employee (
     Name VARCHAR(50),
 	Branch VARCHAR(100),
     Salary FLOAT
-)
+);
 
-INSERT INTO Employee (EmpID, Name, Branch, Salary)
+INSERT INTO Employee (EmpID, Emp_Name, Branch, Salary)
 VALUES (1, 'Akash' , 'Mechanical', 100000.00),
 (2, 'Shanaya' ,  'AI/ML' , 200000.00),
 (3, 'Priyanka' , 'CSE' , 300000.00),
