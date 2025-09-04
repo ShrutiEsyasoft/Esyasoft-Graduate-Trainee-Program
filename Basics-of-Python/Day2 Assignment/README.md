@@ -1,4 +1,4 @@
-DAY 2 ASSIGNMENT
+# DAY 2 ASSIGNMENT
 
 Question:
     
