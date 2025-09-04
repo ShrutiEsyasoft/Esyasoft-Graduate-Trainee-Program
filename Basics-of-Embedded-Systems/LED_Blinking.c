@@ -41,5 +41,5 @@ int main() {
     }
     printf("Liftoff!\n");
 
-    return 0;
+    return 0; 	// Indicate successful execution
 } 
